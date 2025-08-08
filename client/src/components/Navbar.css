@@ -1,0 +1,10 @@
+/* Hover effect for navbar links */
+.navbar-nav .nav-link {
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scale and color */
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.1); /* Enlarge the link when hovered */
+  color: #ffffff; /* Change the color to white */
+  text-decoration: none; /* Optional: Remove the underline on hover */
+}
